@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		ED1B113D2288ED7C009167CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1B113C2288ED7C009167CA /* AppDelegate.m */; };
-		ED1B11402288ED7C009167CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1B113F2288ED7C009167CA /* ViewController.m */; };
 		ED1B11432288ED7C009167CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1B11412288ED7C009167CA /* Main.storyboard */; };
 		ED1B11452288ED7D009167CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1B11442288ED7D009167CA /* Assets.xcassets */; };
 		ED1B11482288ED7D009167CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1B11462288ED7D009167CA /* LaunchScreen.storyboard */; };
 		ED1B114B2288ED7D009167CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1B114A2288ED7D009167CA /* main.m */; };
+		ED1B11532288EEE9009167CA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1B11522288EEE9009167CA /* FirstViewController.m */; };
+		ED1B11562288EEF3009167CA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1B11552288EEF3009167CA /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED1B11382288ED7C009167CA /* NSNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1B113B2288ED7C009167CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED1B113C2288ED7C009167CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED1B113E2288ED7C009167CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED1B113F2288ED7C009167CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED1B11422288ED7C009167CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED1B11442288ED7D009167CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED1B11472288ED7D009167CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED1B11492288ED7D009167CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED1B114A2288ED7D009167CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED1B11512288EEE9009167CA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		ED1B11522288EEE9009167CA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		ED1B11542288EEF3009167CA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		ED1B11552288EEF3009167CA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +61,12 @@
 		ED1B113A2288ED7C009167CA /* NSNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
+				ED1B11512288EEE9009167CA /* FirstViewController.h */,
+				ED1B11522288EEE9009167CA /* FirstViewController.m */,
+				ED1B11542288EEF3009167CA /* SecondViewController.h */,
+				ED1B11552288EEF3009167CA /* SecondViewController.m */,
 				ED1B113B2288ED7C009167CA /* AppDelegate.h */,
 				ED1B113C2288ED7C009167CA /* AppDelegate.m */,
-				ED1B113E2288ED7C009167CA /* ViewController.h */,
-				ED1B113F2288ED7C009167CA /* ViewController.m */,
 				ED1B11412288ED7C009167CA /* Main.storyboard */,
 				ED1B11442288ED7D009167CA /* Assets.xcassets */,
 				ED1B11462288ED7D009167CA /* LaunchScreen.storyboard */,
@@ -141,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1B11402288ED7C009167CA /* ViewController.m in Sources */,
+				ED1B11562288EEF3009167CA /* SecondViewController.m in Sources */,
 				ED1B114B2288ED7D009167CA /* main.m in Sources */,
+				ED1B11532288EEE9009167CA /* FirstViewController.m in Sources */,
 				ED1B113D2288ED7C009167CA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
