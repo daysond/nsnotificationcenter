@@ -17,12 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:NO];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateLabel:) name:@"stepperValueDidChange" object:nil];
+}
+
+-(void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 -(void)updateLabel:(NSNotification*) notification {
     
-    NSLog(@"updating ...");
     self.countLabel.text =[NSString stringWithFormat:@"%ld",[notification.userInfo[@"stepperValue"] integerValue]];
 }
 

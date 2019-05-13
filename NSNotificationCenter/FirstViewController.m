@@ -21,7 +21,6 @@
 }
 - (IBAction)stepperTapped:(UIStepper *)sender {
     
-    NSLog(@"stepper up");
     NSDictionary *userInfo = @{@"stepperValue": [NSNumber numberWithDouble: _stepper.value]};
     
     [[NSNotificationCenter defaultCenter] postNotificationName:@"stepperValueDidChange" object:self userInfo:userInfo];
